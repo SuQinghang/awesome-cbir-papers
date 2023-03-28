@@ -6,32 +6,131 @@
   </p>
 </div>
 
-# Awesome image retrieval papers
+# Awesome Retrieval papers
 
-The main goal is to collect classical and solid works of image retrieval in academia and industry.
+The main goal is to collect classical and solid works of retrieval in academia and industry.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-- [Classical Local Feature](#classical-local-feature)
-- [Deep Learning Feature (Global Feature)](#deep-learning-feature-global-feature)
-- [Deep Learning Feature (Local Feature)](#deep-learning-feature-local-feature)
-- [Deep Learning Feature (Instance Search)](#deep-learning-feature-instance-search)
-- [ANN search](#ann-search)
-- [CBIR Attack](#cbir-attack)
-- [CBIR rank](#cbir-rank)
-- [CBIR in Industry](#cbir-in-industry)
-- [CBIR Competition and Challenge](#cbir-competition-and-challenge)
-- [CBIR for Duplicate(copy) detection](#cbir-for-duplicatecopy-detection)
-- [Feature Fusion](#feature-fusion)
-- [Instance Matching](#instance-matching)
-- [Semantic Matching](#semantic-matching)
-- [Template Matching](#template-matching)
-- [Image Identification](#image-identification)
-- [Tutorials](#tutorials)
-- [Slide](#slide)
-- [Demo and Demo Online](#demo-and-demo-online)
-- [Datasets](#datasets)
-- [Useful Package](#useful-package)
+- [Awesome Retrieval papers](#awesome-retrieval-papers)
+  - [Image Retrieval](#image-retrieval)
+    - [Real-valued Feature](#real-valued-feature)
+    - [Binary Feature](#binary-feature)
+  - [Cross-Modal Retrieval](#cross-modal-retrieval)
+    - [Real-valued Feature](#real-valued-feature-1)
+    - [Binary Feature](#binary-feature-1)
+  - [Real-World Scenarios](#real-world-scenarios)
+    - [Person/Vehicle Re-Identification](#personvehicle-re-identification)
+    - [Incremental/Continual Learning](#incrementalcontinual-learning)
+    - [Fine-Grained Retrieval](#fine-grained-retrieval)
+    - [Copy/Duplicate Detection](#copyduplicate-detection)
+    - [Long-Tail Visual Recognition](#long-tail-visual-recognition)
+  - [Classical Local Feature](#classical-local-feature)
+  - [Deep Learning Feature (Global Feature)](#deep-learning-feature-global-feature)
+  - [Deep Learning Feature (Local Feature)](#deep-learning-feature-local-feature)
+  - [Deep Learning Feature (Instance Search)](#deep-learning-feature-instance-search)
+  - [ANN search](#ann-search)
+  - [CBIR Attack](#cbir-attack)
+  - [CBIR rank](#cbir-rank)
+  - [CBIR in Industry](#cbir-in-industry)
+  - [CBIR Competition and Challenge](#cbir-competition-and-challenge)
+  - [Feature Fusion](#feature-fusion)
+  - [Instance Matching](#instance-matching)
+  - [Semantic Matching](#semantic-matching)
+  - [Template Matching](#template-matching)
+  - [Image Identification](#image-identification)
+  - [Tutorials](#tutorials)
+  - [Slide](#slide)
+  - [Demo and Demo Online](#demo-and-demo-online)
+  - [Datasets](#datasets)
+  - [Useful Package](#useful-package)
+  - [Star History](#star-history)
+
+## Image Retrieval
+
+### Real-valued Feature
+
+- Forward Compatible Training for Large-Scale Embedding Retrieval Systems (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Ramanujan_Forward_Compatible_Training_for_Large-Scale_Embedding_Retrieval_Systems_CVPR_2022_paper.html)]
+- Correlation Verification for Image Retrieval (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Lee_Correlation_Verification_for_Image_Retrieval_CVPR_2022_paper.html)]
+- Effective Conditioned and Composed Image Retrieval Combining CLIP-Based Features (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Baldrati_Effective_Conditioned_and_Composed_Image_Retrieval_Combining_CLIP-Based_Features_CVPR_2022_paper.html)]
+- Sketching Without Worrying: Noise-Tolerant Sketch-Based Image Retrieval (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Bhunia_Sketching_Without_Worrying_Noise-Tolerant_Sketch-Based_Image_Retrieval_CVPR_2022_paper.html)]
+- FashionVLP: Vision Language Transformer for Fashion Retrieval With Feedback (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Goenka_FashionVLP_Vision_Language_Transformer_for_Fashion_Retrieval_With_Feedback_CVPR_2022_paper.html)]
+- Beyond Cross-View Image Retrieval: Highly Accurate Vehicle Localization Using Satellite Image (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Shi_Beyond_Cross-View_Image_Retrieval_Highly_Accurate_Vehicle_Localization_Using_Satellite_CVPR_2022_paper.html)]
+- Contextual Similarity Distillation for Asymmetric Image Retrieval (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Wu_Contextual_Similarity_Distillation_for_Asymmetric_Image_Retrieval_CVPR_2022_paper.html)]
+- Correlation Verification for Image Retrieval (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Lee_Correlation_Verification_for_Image_Retrieval_CVPR_2022_paper.html)]
+- Effective Conditioned and Composed Image Retrieval Combining CLIP-Based Features (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Baldrati_Effective_Conditioned_and_Composed_Image_Retrieval_Combining_CLIP-Based_Features_CVPR_2022_paper.html)]
+- Beyond Cross-View Image Retrieval: Highly Accurate Vehicle Localization Using Satellite Image (**CVPR2022**) [[paper]()]
+- (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Shi_Beyond_Cross-View_Image_Retrieval_Highly_Accurate_Vehicle_Localization_Using_Satellite_CVPR_2022_paper.html)]
+- Feature Representation Learning for Unsupervised Cross-domain Image Retrieval (**ECCV2022**) [[paper](https://arxiv.org/abs/2207.09721)]
+- Hierarchical Average Precision Training for Pertinent Image Retrieval (**ECCV2022**) [[paper](https://arxiv.org/abs/2207.04873)][[code](https://github.com/elias-ramzi/HAPPIER)]
+- PatchRD: Detail-Preserving Shape Completion by Learning Patch Retrieval and Deformation (**ECCV2022**) [[paper](https://arxiv.org/abs/2207.11790)][[code](https://github.com/GitBoSun/PatchRD)]
+- Reliability-Aware Prediction via Uncertainty Learning for Person Image Retrieval (**ECCV2022**) [[paper](https://arxiv.org/abs/2210.13440)]
+- LWGNet – Learned Wirtinger Gradients for Fourier Ptychographic Phase Retrieval (**ECCV2022**) [[paper](https://arxiv.org/abs/2208.04283)]
+
+### Binary Feature
+
+- One Loss for Quantization: Deep Hashing With Discrete Wasserstein Distributional Matching (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Doan_One_Loss_for_Quantization_Deep_Hashing_With_Discrete_Wasserstein_Distributional_CVPR_2022_paper.html)][[code](https://github.com/khoadoan106/single_loss_quantization/tree/e20d5a7bd5a5f0b9403f88f875bbb6993f177b9d)]
+- Deep Hash Distillation for Image Retrieval (**ECCV2022**) [[paper](https://arxiv.org/abs/2112.08816)][[code](https://github.com/youngkyunJang/Deep-Hash-Distillation)]
+- SEMICON: A Learning-to-hash Solution for Large-scale Fine-grained Image Retrieval (**ECCV2022**) [[paper](https://arxiv.org/abs/2209.13833)]
+
+## Cross-Modal Retrieval
+
+### Real-valued Feature
+
+- Everything at Once - Multi-Modal Fusion Transformer for Video Retrieval (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Shvetsova_Everything_at_Once_-_Multi-Modal_Fusion_Transformer_for_Video_Retrieval_CVPR_2022_paper.html)]
+- Bridging Video-Text Retrieval With Multiple Choice Questions (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Ge_Bridging_Video-Text_Retrieval_With_Multiple_Choice_Questions_CVPR_2022_paper.html)]
+- Object-Aware Video-Language Pre-Training for Retrieval (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Object-Aware_Video-Language_Pre-Training_for_Retrieval_CVPR_2022_paper.html)]
+- Cross Modal Retrieval With Querybank Normalisation (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Bogolin_Cross_Modal_Retrieval_With_Querybank_Normalisation_CVPR_2022_paper.html)]
+- EI-CLIP: Entity-Aware Interventional Contrastive Learning for E-Commerce Cross-Modal Retrieval (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Ma_EI-CLIP_Entity-Aware_Interventional_Contrastive_Learning_for_E-Commerce_Cross-Modal_Retrieval_CVPR_2022_paper.html)]
+- Sketching Without Worrying: Noise-Tolerant Sketch-Based Image Retrieval (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Bhunia_Sketching_Without_Worrying_Noise-Tolerant_Sketch-Based_Image_Retrieval_CVPR_2022_paper.html)]
+- AxIoU: An Axiomatically Justified Measure for Video Moment Retrieva (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Togashi_AxIoU_An_Axiomatically_Justified_Measure_for_Video_Moment_Retrieval_CVPR_2022_paper.html)]
+- COTS: Collaborative Two-Stream Vision-Language Pre-Training Model for Cross-Modal Retrieval (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Lu_COTS_Collaborative_Two-Stream_Vision-Language_Pre-Training_Model_for_Cross-Modal_Retrieval_CVPR_2022_paper.html)]
+- ViSTA: Vision and Scene Text Aggregation for Cross-Modal Retrieval (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Cheng_ViSTA_Vision_and_Scene_Text_Aggregation_for_Cross-Modal_Retrieval_CVPR_2022_paper.html)]
+- FashionVLP: Vision Language Transformer for Fashion Retrieval With Feedback (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Goenka_FashionVLP_Vision_Language_Transformer_for_Fashion_Retrieval_With_Feedback_CVPR_2022_paper.html)]
+- Sign Language Video Retrieval With Free-Form Textual Queries (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Duarte_Sign_Language_Video_Retrieval_With_Free-Form_Textual_Queries_CVPR_2022_paper.html)]
+- UMT: Unified Multi-Modal Transformers for Joint Video Moment Retrieval and Highlight Detection (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Liu_UMT_Unified_Multi-Modal_Transformers_for_Joint_Video_Moment_Retrieval_and_CVPR_2022_paper.html)]
+- X-Pool: Cross-Modal Language-Video Attention for Text-Video Retrieval (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Gorti_X-Pool_Cross-Modal_Language-Video_Attention_for_Text-Video_Retrieval_CVPR_2022_paper.html)]
+- ECLIPSE: Efficient Long-range Video Retrieval using Sight and Sound (**ECCV2022**) [[paper](https://arxiv.org/abs/2204.02874)][[project](https://yanbo.ml/project_page/eclipse/)][[code](https://github.com/GenjiB/ECLIPSE)]
+- VTC: Improving Video-Text Retrieval with User Comments (**ECCV2022**) [[paper](https://dl.acm.org/doi/abs/10.1007/978-3-031-19833-5_36)][[code](https://github.com/unitaryai/VTC)]
+- Dual-Stream Knowledge-Preserving Hashing for Unsupervised Video Retrieval (**ECCV2022**) [[paper](https://dl.acm.org/doi/abs/10.1007/978-3-031-19781-9_11)]
+- MILES: Visual BERT Pre-training with Injected Language Semantics for Video-text Retrieval (**ECCV2022**) [[paper](https://arxiv.org/abs/2204.12408)]
+- Adaptive Fine-Grained Sketch-Based Image Retrieval (**ECCV2022**) [[paper](https://arxiv.org/abs/2207.01723)]
+- Multi-Query Video Retrieval (**ECCV2022**) [[paper](https://arxiv.org/abs/2201.03639)]
+- Selective Query-guided Debiasing for Video Corpus Moment Retrieval (**ECCV2022**) [[paper](https://arxiv.org/abs/2210.08714)]
+- TS2-Net: Token Shift and Selection Transformer for Text-Video Retrieval (**ECCV2022**) [[paper](https://arxiv.org/abs/2207.07852)]
+- Learning Linguistic Association Towards Efficient Text-Video Retrieval (**ECCV2022**) [[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136960251.pdf)]
+- Granularity-aware Adaptation for Image Retrieval over Multiple Tasks (**ECCV2022**) [[paper](https://arxiv.org/abs/2210.02254)]
+- Lightweight Attentional Feature Fusion: A New Baseline for Text-to-Video Retrieval (**ECCV2022**) [[paper](https://arxiv.org/abs/2112.01832)]
+- Audio-Visual Mismatch-Aware Video Retrieval via Association and Adjustment (**ECCV2022**) [[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136740484.pdf)]
+- Conditional Stroke Recovery for Fine-Grained Sketch-Based Image Retrieval (**ECCV2022**) [[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136860708.pdf)]
+- CODER: Coupled Diversity-Sensitive Momentum Contrastive Learning for Image-Text Retrieval (**ECCV2022**) [[paper](https://arxiv.org/abs/2208.09843)]
+- A Sketch Is Worth a Thousand Words:Image Retrieval with Text and Sketch (**ECCV2022**) [[paper](https://arxiv.org/abs/2208.03354)][[project](https://patsorn.me/projects/tsbir/)]
+
+### Binary Feature
+
+- Mutual Quantization for Cross-Modal Search With Noisy Labels (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Yang_Mutual_Quantization_for_Cross-Modal_Search_With_Noisy_Labels_CVPR_2022_paper.html)]
+
+## Real-World Scenarios
+
+### Person/Vehicle Re-Identification
+
+### Incremental/Continual Learning
+
+### Fine-Grained Retrieval
+
+### Copy/Duplicate Detection
+
+- Perceptual Image Hashing With Locality Preserving Projection for Copy Detection (**TDSC2023**) [[paper](https://ieeexplore.ieee.org/document/9656599)]
+- Shrinking the Semantic Gap: Spatial Pooling of Local Moment Invariants for Copy-Move Forgery Detection (**TIFS2023**) [[paper](https://ieeexplore.ieee.org/document/10007894)]
+- Efficient Hashing Method Using 2D-2D PCA for Image Copy Detection (**TKDE2023**) [[paper](https://ieeexplore.ieee.org/document/9628057)]
+- Robust image hashing with Isomap and saliency map for copy detection (**TMM2023**) [[paper](https://ieeexplore.ieee.org/document/9665342)]
+- A Self-Supervised Descriptor for Image Copy Detection (**CVPR2022**) [[paper](https://arxiv.org/abs/2202.10261)] [[code](https://github.com/facebookresearch/sscd-copy-detection)]
+- A Robust and Fast Video Copy Detection System Using Content-Based Fingerprinting (**TIFS2011**)
+  [[paper](https://ieeexplore.ieee.org/document/5672596)]
+
+### Long-Tail Visual Recognition
+
+- Retrieval Augmented Classification for Long-Tail Visual Recognition (**CVPR2022**) [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Long_Retrieval_Augmented_Classification_for_Long-Tail_Visual_Recognition_CVPR_2022_paper.html)]
 
 ## Classical Local Feature
 
@@ -53,10 +152,12 @@ The main goal is to collect classical and solid works of image retrieval in acad
 - [A Vote-and-Verify Strategy for Fast Spatial Verification in Image Retrieval](https://www.microsoft.com/en-us/research/uploads/prod/2019/09/accv_2016_schoenberger.pdf), ACCV 2016.
 - [Triangulation embedding and democratic aggregation for image search](https://www.robots.ox.ac.uk/~vgg/publications/2014/Jegou14/jegou14.pdf), CVPR 2014.
 - [Efficient Large-scale Image Search With a Vocabulary Tree](http://www.ipol.im/pub/art/2018/199/), IPOL 2015, [code](https://github.com/fragofer/voctree).
+- 
 
 ## Deep Learning Feature (Global Feature)
 
-- [Online Invariance Selection for Local Feature Descriptors](https://arxiv.org/abs/2007.08988), ECCV 2020, [code](https://github.com/rpautrat/LISRD).
+ [Online Invariance Selection for Local Feature Descriptors](https://arxiv.org/abs/2007.08988), ECCV 2020, [code](https://github.com/rpautrat/LISRD).
+
 - [Smooth-AP: Smoothing the Path Towards Large-Scale Image Retrieval](https://arxiv.org/pdf/2007.12163.pdf), ECCV 2020.
 - [SOLAR: Second-Order Loss and Attention for Image Retrieval](https://arxiv.org/pdf/2001.08972.pdf), ECCV 2020.
 - [Unifying Deep Local and Global Features for Image Search](https://arxiv.org/abs/2001.05027), arxiv 2020.
@@ -109,14 +210,14 @@ The main goal is to collect classical and solid works of image retrieval in acad
 - [Key.Net: Keypoint Detection by Handcrafted and Learned CNN Filters](https://github.com/axelBarroso/Key.Net), ICCV 2019.
 - [Learning Discriminative Affine Regions via Discriminability](http://cn.arxiv.org/pdf/1711.06704.pdf), [affnet](https://github.com/ducha-aiki/affnet).
 - [A Large Dataset for Improving Patch Matching](http://cn.arxiv.org/pdf/1801.01466.pdf), [PS-Dataset](https://github.com/rmitra/PS-Dataset).
-- [Working hard to know your neighbor's margins: Local descriptor learning loss](), [code](https://github.com/DagnyT/hardnet).
+- [Working hard to know your neighbor&#39;s margins: Local descriptor learning loss](), [code](https://github.com/DagnyT/hardnet).
 - [MatchNet: Unifying Feature and Metric Learning for Patch-Based Matching](), [code](https://github.com/hanxf/matchnet).
 - [LF-Net: Learning Local Features from Images](https://arxiv.org/abs/1805.09662), NeurIPS 2018.
 - [Local Descriptors Optimized for Average Precision](http://openaccess.thecvf.com/content_cvpr_2018/papers/He_Local_Descriptors_Optimized_CVPR_2018_paper.pdf), CVPR 2018.
 - [SuperPoint: Self-Supervised Interest Point Detection and Description](http://cn.arxiv.org/pdf/1712.07629.pdf), Magic Leap.
 - [GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints](https://arxiv.org/pdf/1807.06294.pdf), [code](https://github.com/lzx551402/geodesc), ECCV 2018.
 - [Learning local feature descriptors with triplets and shallow convolutional neural networks](https://github.com/vbalnt/tfeat), BMVC 2016.
-  
+
 ## Deep Learning Feature (Instance Search)
 
 - [Deeply Activated Salient Region for Instance Search](https://arxiv.org/abs/2002.00185), arXiv 2020.
@@ -146,7 +247,7 @@ The main goal is to collect classical and solid works of image retrieval in acad
 - [Optimized Product Quantization](http://kaiminghe.com/cvpr13/index.html).
 - [Falconn](https://github.com/FALCONN-LIB/FALCONN). FAst Lookups of Cosine and Other Nearest Neighbors.
 - [Annoy](https://github.com/spotify/annoy). Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk.
-- [NMSLIB](https://github.com/searchivarius/nmslib). Non-Metric Space Library (NMSLIB): A similarity search library and a toolkit for evaluation of k-NN methods for generic non-metric spaces. 
+- [NMSLIB](https://github.com/searchivarius/nmslib). Non-Metric Space Library (NMSLIB): A similarity search library and a toolkit for evaluation of k-NN methods for generic non-metric spaces.
 - [Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs](https://github.com/nmslib/hnsw), graph-based method.
 - [Fast Approximate Nearest Neighbor Search With Navigating Spreading-out Graphs](https://arxiv.org/abs/1707.00143), [code](https://github.com/ZJULearning/nsg)
 - [Efficient Nearest Neighbors Search for Large-Scale Landmark Recognition](http://cn.arxiv.org/pdf/1806.05946.pdf)
@@ -172,7 +273,7 @@ The main goal is to collect classical and solid works of image retrieval in acad
 
 - [Videntifier](http://videntifier.com/) is a visual search engine based on a patented large-scale local feature database, [demo](http://flickrdemo.videntifier.com/), based on SIFT feature and NV-tree. ([Chinese blog post](https://yongyuan.name/blog/videntifier-and-nv-tree.html)).
 - [Web-Scale Responsive Visual Search at Bing](https://arxiv.org/abs/1802.04914).
-- [Visual Search at Alibaba](https://dl.acm.org/citation.cfm?id=3219819.3219820).
+- Visual Search at Alibaba (**KDD2018**) [[paper](https://dl.acm.org/citation.cfm?id=3219819.3219820)].
 - [Visual Search at Pinterest](https://labs.pinterest.com/user/themes/pinlabs/assets/paper/visual_search_at_pinterest.pdf).
 - [Visual Discovery at Pinterest](https://arxiv.org/abs/1702.04680).
 - [Learning a Unified Embedding for Visual Search at Pinterest](https://arxiv.org/abs/1908.01707), KDD 2019.
@@ -188,11 +289,6 @@ The main goal is to collect classical and solid works of image retrieval in acad
 - [Alibaba Large-scale Image Search Challenge](https://tianchi.aliyun.com/competition/introduction.htm?raceId=231510&_lang=en_US), 2015.
 - [Pkbigdata image retrieval](http://www.pkbigdata.com/common/cmpt/%E5%9B%BE%E5%83%8F%E6%90%9C%E7%B4%A2%E7%AB%9E%E8%B5%9B_%E7%AB%9E%E8%B5%9B%E4%BF%A1%E6%81%AF.html), 2015.
 - [Large-scale Landmark Retrieval/Recognition under a Noisy and Diverse Dataset](https://arxiv.org/pdf/1906.04087.pdf), [Landmark2019-1st-and-3rd-Place-Solution](https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution).
-
-## CBIR for Duplicate(copy) detection
-
-- [A Self-Supervised Descriptor for Image Copy Detection](https://arxiv.org/abs/2202.10261), CVPR 2022, [code](https://github.com/facebookresearch/sscd-copy-detection).
-- [A Robust and Fast Video Copy Detection System Using Content-Based Fingerprinting](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwiisbW0maXYAhXLOY8KHUw0AEsQFgg7MAI&url=https%3A%2F%2Fpdfs.semanticscholar.org%2F7b4f%2F68e227999da8ffc6dc9f7fd34da5ebaad09f.pdf&usg=AOvVaw0mZvcT7VhEuEm68oieXLv-).
 
 ## Feature Fusion
 
@@ -255,8 +351,8 @@ The main goal is to collect classical and solid works of image retrieval in acad
 - [Paris](https://ieeexplore.ieee.org/abstract/document/4587635/), Paris consists of images crawled from 11 queries on specific Paris architecture.
 - [ROxford and RParis](https://openaccess.thecvf.com/content_cvpr_2018/html/Radenovic_Revisiting_Oxford_and_CVPR_2018_paper.html), ROxford and RParis are revisited versions of the original Oxford and Paris with annotation corrections, enlarged sizes and more difficult samples.
 - [INSTRE](https://dl.acm.org/doi/abs/10.1145/2700292), INSTRE is an instance-level object retrieval dataset.
- 
-## Useful Package 
+
+## Useful Package
 
 - [VLFeat](http://www.vlfeat.org/)
 - [Yael](http://yael.gforge.inria.fr/)
@@ -264,3 +360,5 @@ The main goal is to collect classical and solid works of image retrieval in acad
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=willard-yuan/awesome-cbir-papers&type=Date)](https://star-history.com/#willard-yuan/awesome-cbir-papers&Date)
+
+[def]: https://openaccess.thecvf.com/content/CVPR2022/html/Goenka_FashionVLP_Vision_Language_Transformer_for_Fashion_Retrieval_With_Feedback_CVPR_2022_paper.html
